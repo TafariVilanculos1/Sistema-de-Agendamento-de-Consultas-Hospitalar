@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+body{
+    background-color: #f0f8ff;
+}
+header{
+    background-color: #3B78E1;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color:white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+h2{
+    text-align: center; 
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h4{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+hr{
+    border: 0.5px solid black; 
+    width: 100%;
+}
+
+section{
+    width: 40%;
+    height: 28vh;
+    margin: auto;
+    background-color: #3B78E1;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow:black;
+     
+}
+
+#btnCancelar{
+    width: 30%;
+    background-color:black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+ 
+#btnCancelar:hover{
+    background-color: #E92D15;
+}
+
+.containerButoes{
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
